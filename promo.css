@@ -1,5 +1,6 @@
 .promo {
   background-color: #F1F2F4;
+  margin-bottom: 100px;
 }
 
 .promo-wrapper {
@@ -8,13 +9,15 @@
 }
 
 .promo-text-column {
-  width: 305px;
-  padding: 50px 50px;
+  position: relative;
+  width: 520px;
 }
 
-.promo-img-column {
-  width: 430px;
-  padding: 50px 50px;
+
+.promo-column-wrapper {
+  position: absolute;
+  top: 190px;
+  left: 155px;
 }
 
 .promo-title {
@@ -32,4 +35,42 @@
   line-height: 128px;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 40px;
+}
+
+.arrow-icon {
+  position: absolute;
+  bottom: 50px;
+}
+
+.promo-img-column {
+  position: relative;
+  width: 430px;
+  padding: 50px 50px;
+}
+
+.promo-img-column img {
+  position: relative;
+  z-index: 10;
+}
+
+.promo-img-column::before {
+  content: "";
+  position: absolute;
+  width: 232px;
+  height: 176px;
+  background: url("img/diagonal.png") no-repeat;
+  top: 0;
+  left: 0;
+}
+
+.promo-img-column::after {
+  content: "";
+  position: absolute;
+  width: 230px;
+  height: 170px;
+  background: url("img/diagonal.png") no-repeat;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  bottom: 0;
+  right: 0;
 }

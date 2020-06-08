@@ -1,0 +1,5 @@
+.bestsellers {
+  display: flex;
+  flex-direction: column;
+}
+
