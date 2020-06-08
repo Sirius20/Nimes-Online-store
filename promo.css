@@ -41,6 +41,7 @@
 .arrow-icon {
   position: absolute;
   bottom: 50px;
+  cursor: pointer;
 }
 
 .promo-img-column {
