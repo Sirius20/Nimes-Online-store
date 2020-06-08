@@ -1,0 +1,35 @@
+.promo {
+  background-color: #F1F2F4;
+}
+
+.promo-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.promo-text-column {
+  width: 305px;
+  padding: 50px 50px;
+}
+
+.promo-img-column {
+  width: 430px;
+  padding: 50px 50px;
+}
+
+.promo-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #727A82;
+}
+
+.promo-text {
+  font-family: "Anton", sans-serif;
+  font-weight: normal;
+  font-size: 128px;
+  line-height: 128px;
+  text-transform: uppercase;
+  margin: 0;
+}
