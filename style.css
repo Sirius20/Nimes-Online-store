@@ -31,19 +31,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-
-  border: 3px solid steelblue;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.section-title {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 800;
 }
 
 .black-button {
@@ -54,4 +46,25 @@ a {
 
   background-color: #151C22;
   padding: 25px;
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 27px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 67px;
+}
+
+.show-more {
+  font-weight: 600;
+  color: #151C22;
+  border-bottom: 2px solid #151C22;
 }
