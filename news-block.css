@@ -1,7 +1,7 @@
 .news-block {
   display: flex;
   flex-direction: column;
-  margin-bottom: 80px;
+  margin-bottom: 107px;
 }
 
 .news-block-wrapper {
@@ -9,7 +9,6 @@ position: relative;
   display: flex;
   flex-direction: row-reverse;
 }
-
 
 .news-block-text {
   width: 400px;

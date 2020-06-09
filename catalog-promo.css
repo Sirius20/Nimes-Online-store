@@ -1,0 +1,88 @@
+.catalog-promo {
+  background-color: #F1F2F4;
+  margin-bottom: 40px;
+}
+
+.catalog-promo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-promo-text {
+  margin-right: 85px;
+}
+
+.catalog-promo-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 70px;
+}
+
+.breadcrumbs-item {
+  position: relative;
+  color: #727A82;
+  margin-right: 30px;
+
+  font-weight: 500;
+}
+
+.breadcrumbs-item_active,
+.breadcrumbs-item a:hover {
+  color: #151C22;
+}
+
+.breadcrumbs-item::after {
+  content: "/";
+  position: absolute;
+
+  right: -20px;
+  color: #727A82;
+}
+
+.breadcrumbs-item:last-child::after {
+  content: "";
+}
+
+.catalog-promo-img {
+  position: relative;
+  height: 260px;
+  z-index: 10;
+}
+
+.catalog-promo-img img {
+  position: relative;
+  z-index: 10;
+}
+
+.catalog-promo-img::before {
+  content: "";
+  position: absolute;
+  background: url("img/diagonal.png") no-repeat;
+  left: -30px;
+  bottom: 0;
+
+  width: 178px;
+  height: 135px;
+}
+
+.catalog-promo-img::after {
+  content: "";
+  position: absolute;
+  background: url("img/diagonal.png") no-repeat;
+  right: -30px;
+  top: 0;
+
+  width: 178px;
+  height: 135px;
+}

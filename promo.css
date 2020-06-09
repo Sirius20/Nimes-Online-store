@@ -1,6 +1,6 @@
 .promo {
   background-color: #F1F2F4;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 
 .promo-wrapper {
@@ -12,7 +12,6 @@
   position: relative;
   width: 520px;
 }
-
 
 .promo-column-wrapper {
   position: absolute;
