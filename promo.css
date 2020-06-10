@@ -4,8 +4,12 @@
 }
 
 .promo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .promo-text-column {
@@ -70,7 +74,9 @@
   width: 230px;
   height: 170px;
   background: url("img/diagonal.png") no-repeat;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
   bottom: 0;
   right: 0;
 }

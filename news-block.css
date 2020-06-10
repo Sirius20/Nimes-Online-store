@@ -1,13 +1,23 @@
 .news-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 107px;
 }
 
 .news-block-wrapper {
 position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .news-block-text {
@@ -23,7 +33,9 @@ position: relative;
   content: "";
   position: absolute;
   background: url("img/diagonal.png") no-repeat;
-  transform: matrix(-1, 0, 0, 1, 0, 0) scale(2);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0) scale(2);
+      -ms-transform: matrix(-1, 0, 0, 1, 0, 0) scale(2);
+          transform: matrix(-1, 0, 0, 1, 0, 0) scale(2);
 
   width: 233px;
   height: 230px;
